@@ -1,0 +1,32 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+article {
+  margin: 10px 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  width: 200px;
+}
+.image img {
+  width: 200px;
+  height: 100px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+  margin-bottom: 0;
+}
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+  margin-top: 0;
+}
